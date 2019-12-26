@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+
+    /*
+    background-color: antiquewhite;
+    */
+    background-image: url('/sinterklaasachtergrond-l64.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: auto;
+
+    margin: 16px;
+}
+
+.route-stap {
+    display: inline-block;
+    width: 720px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px 5px;
+}
+
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+dd {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}}
