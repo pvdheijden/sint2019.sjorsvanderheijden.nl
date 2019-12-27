@@ -12,12 +12,6 @@
 </head>
 <body>
 
-<!-- AIzaSyAeMA4zizPONXrCCqlgfQtdm1GF_a2Qrp4 -->
-
-<!-- Thionville: 49.393622, 6.244913
-<img src="https://maps.googleapis.com/maps/api/staticmap?center=49.393622, 6.244913&zoom=12&size=512x512&maptype=terrain&key=AIzaSyAeMA4zizPONXrCCqlgfQtdm1GF_a2Qrp4" alt="">
--->
-
 <?php
 $antwoord_1_controle = isset($_POST['antwoord_1_controle']);
 $antwoord_1_1 = $antwoord_1_controle ? $_POST['antwoord_1_1'] : null;
